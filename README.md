@@ -54,26 +54,28 @@ Overview
 
 
   --- the following code is written in the lab class ---
+  
+  lab : 
 
-  1 : sort program for multi-processor
-    sort.c : sort program for MPI program
+    1 : sort program for multi-processor
+      sort.c : sort program for MPI program
 
-  2 : poisson equation in multi-processor
-    cpu.c : cpu program
-    openmp.c : openmp
-    gpu.c : gpu program
+    2 : poisson equation in multi-processor
+      cpu.c : cpu program
+      openmp.c : openmp
+      gpu.c : gpu program
 
-  3 : Newton method
-    compare_newton.py : program for comparing newton method and dumped newton method
-    compare.png : compared data
+    3 : Newton method
+      compare_newton.py : program for comparing newton method and dumped newton method
+      compare.png : compared data
 
-  4 : runge-cutta method
-    runge.py : runge-cutta method
-    result.png : result
+    4 : runge-cutta method
+      runge.py : runge-cutta method
+      result.png : result
 
-  5 : matrix
-    a.py : LU decomposition
-    c-1.py : Jacobi method
+    5 : matrix
+      a.py : LU decomposition
+      c-1.py : Jacobi method
 
-  6 : cg method
-    cg.py : cg method program
+    6 : cg method
+      cg.py : cg method program
